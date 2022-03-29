@@ -1,0 +1,70 @@
+.formaciones{
+    background: #EAF2FD;
+    margin: 0 auto;
+    padding: 1%;
+    width: 98%;
+}
+
+.formaciones li{
+    box-sizing: border-box;
+    display: inline-block;
+    margin: 0 1.5%;
+    padding: 30px 20px;
+    text-align: center;
+    vertical-align: top;
+    width: 30%;
+}
+/* .formaciones h2{
+    font-size: 30px;
+    font-weight: bold;
+} */
+.formaciones-descripcion{
+    font-size: 1.3rem;
+}
+
+.fotosformacion{
+    border-radius: 5%;
+}
+
+@media screen and (max-width: 360px){
+    .formaciones li{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 100%;
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 768px){
+    /* .formaciones li{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 30%;
+        justify-content: center;
+    
+    } */
+    .formaciones-descripcion{
+        font-size: .9rem;
+    }
+    
+    .lista-formaciones{
+        flex-wrap: nowrap;
+        display:flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    .fotosformacion{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 16px;
+        
+        position: static;
+        width: 200px;
+        height: 118px;
+        left: 0px;
+        top: 0px;}
+}
