@@ -1,0 +1,112 @@
+.productos{
+    display: flex;
+    margin-left: 10%;
+    margin-right: 10%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.productos__imagen{
+    width: 80%;
+}
+/* contenedor */
+.productos__texto{
+    padding-left: 2rem;
+
+}
+
+.productos__texto-titulo{
+
+width: 560px;
+height: 61px;
+left: 0px;
+top: 0px;
+
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 500;
+font-size: 52px;
+line-height: 61px;
+
+color: #464646;
+
+
+
+}
+
+.productos__texto-precio{
+width: 57px;
+height: 19px;
+left: 0px;
+top: 69px;
+
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 19px;
+color: #464646;
+
+}
+
+.productos__texto-descripcion{
+/* Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus, facilis fusce! Ullam conubia? Sociis, minima malesuada habitasse distinctio sequi aliqua malesuada. Quisque deleniti proin expedita, aliquid litora. Iste recusandae? Commodo, quia ridiculus doloribus vero dictum? Penatibus donec placeat faucibus, dolorum do. Animi porta anim magnam */
+
+width: 560px;
+height: 114px;
+left: 0px;
+top: 96px;
+
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+
+color: #464646;
+
+}
+
+
+
+
+
+@media screen and (max-width: 360px){
+    .productos{
+    flex-direction: column;
+    margin-left: 3%;
+    margin-right: 3%;
+
+    }
+}
+
+.productos__texto-titulo{
+    font-size: 22px;
+    margin-left: 3%;
+    margin-right: 3%;
+    width: 94%;
+
+
+    }
+    
+
+
+    .productos__texto-precio{
+        font-size: 16px;
+        margin-left: 3%;
+        margin-right: 3%;
+        width: 94%;
+
+    
+        }
+        
+        .productos__texto-descripcion{
+        font-size: 14px;
+        margin-left: 3%;
+        margin-right: 3%;
+        width: 94%;
+
+        
+        }
+        
+        
