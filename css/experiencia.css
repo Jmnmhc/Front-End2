@@ -1,0 +1,45 @@
+
+.experiencia{
+    background: #EAF2FD;
+    margin: 0 auto;
+    padding: 1%;
+    width: 98%;
+}
+
+.botonesExperiencia{
+    justify-content: space-between;
+    flex-wrap: wrap;
+    flex-direction: row;
+    background: #2A7AE4;
+    color: #fafafa;
+    padding: 1rem;
+}
+.fotosexperiencia {
+    width: 100%;
+    padding-bottom: 3rem;
+    height: 15rem;
+}
+
+.items-experiencia{
+    box-sizing: border-box;
+    display: inline-block;
+    margin: 0 1.5%;
+    padding: 30px 20px;
+    text-align: center;
+    vertical-align: bottom;
+    width: 50%;
+}
+
+.lista-experiencia{
+    text-align: center;
+}
+
+
+@media screen and (max-width: 360px){
+    .items-experiencia{
+        width: 90%;
+    }
+    
+
+
+}
