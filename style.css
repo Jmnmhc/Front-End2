@@ -21,7 +21,10 @@ h2 a:hover{
     font-size: 2em;
     transition:500ms
 }
-
+h3{
+   font-size: 1.25em;
+   font-weight: bold; 
+}
 footer{
     font-size:0.75em;
     text-align:center;
