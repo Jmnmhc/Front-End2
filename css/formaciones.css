@@ -29,7 +29,7 @@
 @media screen and (max-width: 360px){
     .formaciones li{
         display: flex;
-        flex-direction: column; /*row*/
+        flex-direction: row;
         flex-wrap: wrap;
         width: 100%;
         justify-content: center;
@@ -50,9 +50,9 @@
     }
     
     .lista-formaciones{
-        flex-wrap: wrap; /*nowrap*/
+        flex-wrap: nowrap;
         display:flex;
-        flex-direction: column; /*row*/
+        flex-direction: row;
         justify-content: space-around;
     }
     .fotosformacion{

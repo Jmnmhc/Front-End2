@@ -1,0 +1,88 @@
+
+.cursos{
+    background: #EAF2FD;
+    margin: 0 auto;
+    padding: 1%;
+    width: 98%;
+}
+
+/* .botonesExperiencia{
+    justify-content: space-between;
+    flex-wrap: wrap;
+    flex-direction: row;
+    background: #2A7AE4;
+    color: #fafafa;
+    padding: 1rem;
+} */
+
+.cursos__lista___item-imagen {
+    width: 100%;
+    padding-bottom: 3rem;
+    height: 100%;
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
+.cursos__lista___item-imagen:hover {
+    width: 200%;
+    padding-bottom: 3rem;
+    height: 200%;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    transition: 500ms
+}
+
+/* .cursos__lista___item{ */
+    /* box-sizing: border-box; */
+    /* display: inline-block; */
+    /* margin: 0 1.5%; */
+    /* padding: 30px 20px; */
+    /* text-align: center; */
+    /* vertical-align: bottom; */
+    /* width: 75%; */
+/*     
+    
+    
+    
+    flex-direction: row;
+    justify-content: space-around;
+    display: flex;
+
+
+
+
+
+
+
+} */
+
+
+.organizar__cursos{
+    display: flex;
+    justify-content: space-around;
+
+}
+
+
+.cursos__lista___item-h3{
+    font-size: 1.5rem;
+}
+
+.cursos__lista{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    
+}
+
+
+@media screen and (max-width: 360px){
+    .items-experiencia{
+        width: 90%;
+    }
+    
+
+
+}
